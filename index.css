@@ -1,3 +1,22 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #f55a5a;
+  color: white;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+header img {
+  width: 22px;
+  height: 22px;
 }
