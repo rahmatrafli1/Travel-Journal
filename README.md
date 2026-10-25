@@ -1,19 +1,43 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# My Travel Journal
+
+A React app that displays travel journal entries with destination photos, country names, trip dates, descriptions, and links to each location on Google Maps.
+
+## Getting started
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Or use the project’s `start` script:
+
+```bash
 npm start
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Build
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+Create a production build:
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+```bash
+npm run build
+```
 
-Happy Coding!
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Features
+
+- Displays travel entries from the project’s data.
+- Shows a photo, destination, dates, and description for each entry.
+- Links each destination to Google Maps.
